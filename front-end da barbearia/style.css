@@ -1,0 +1,111 @@
+html {
+    background-color: #000;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+
+
+#barbearia {
+    height: 400px;
+    width: 100%;
+    box-shadow: 10px;
+    border-radius: 3px;
+}
+
+.principal {
+    background-color: #ccc;
+
+}
+
+h1 {
+    margin-left: 20px;
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    height: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: -5px;
+    color: #000;
+
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.margin-p {
+    margin-bottom: 0px;
+}
+
+em strong {
+    color: rgb(255, 0, 0);
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 25px;
+
+}
+
+.beneficios {
+    background: #fff;
+    padding: 30px;
+
+
+}
+
+.lista {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-size: 30px;
+    margin-top: 6px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    padding-right: 15px;
+
+
+}
+
+li {
+    color: rgb(255, 2, 2);
+}
+
+
+#corte {
+    width: 50%;
+    display: inline-block;
+
+}
+
+#corte:hover {
+
+    border: 3px solid rgb(250, 249, 249);
+    border-top: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px red;
+
+}

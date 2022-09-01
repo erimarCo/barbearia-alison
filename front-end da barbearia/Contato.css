@@ -1,0 +1,162 @@
+header {
+    background: rgb(255, 2, 2);
+    padding: 20px 0;
+
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    height: 430px;
+}
+
+nav {
+    position: absolute;
+    top: 140px;
+    right: 0;
+
+    /*posiciona o inicio de um elemento em um ponto determinado */
+    /*position:relative ;  posiciona o elemento em determinado ponto porem com o inicio ainda no mesmo local*/
+    /*position: static; posicao estatica de um determinado elemento*/
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+
+}
+
+nav a {
+    text-transform: uppercase;
+    /*texto todo em letra maiuscula*/
+    color: #000;
+    font-weight: bold;
+    /*fonte em negrito*/
+    font-size: 22px;
+    text-decoration: none;
+    /* remove decorações no texto*/
+}
+
+nav a:hover {
+    /*hover é um comando para determinar um comportamento de quando o mouse ESTA POR CIMA de determinado elemento/
+    /*no caso o elemento (a) do (nav)*/
+
+    margin: 3px;
+    text-decoration: underline rgb(7, 7, 7);
+
+
+}
+
+li a:hover {
+    color: rgb(248, 247, 248);
+}
+
+li a:active {
+    /* active é um comando de personalização para quando CLICAR o mouse  o elemento altera */
+    /*para as configurações definidas no active*/
+    text-decoration: underline white;
+    color: aqua;
+
+}
+
+li a .logo {
+    max-width: 450px;
+    max-height: 450px;
+    position: relative;
+    top: 40px;
+}
+
+/*----------------------------------------------fim do cabeçalho------------------------------------------*/
+
+/*----------------------------------------------inicio do rodapé-------------------------------------------*/
+
+footer {
+    text-align: center;
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+img .img-final {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.copyright {
+    padding-bottom: 30px;
+    color: rgb(250, 248, 248);
+    font-size: 13px;
+
+
+}
+
+/*-------------------------------------------------fim do rodapé---------------------------------------------*/
+
+/*-------------------------------------------------inicio da pagina contato-----------------------------------*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 17px;
+    margin: 20px 0 10px;
+}
+
+.input-padrao {
+    /* utilizando a ( ,) é possivel utilizar as mesmas configuraçoes 
+    para diferentes objetos no html*/
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(7, 7, 7);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    /*all defini que todo elemento da classe devera ter determinado tempo de transição*/
+    /*transformar uma cor a outra em determinado tempo*/
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(255, 0, 0);
+    transform: scale(1.1);
+    /*propriedade utilizada para modificar um elemento como um todo com um so comando*/
+
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 8px 15px;
+}
