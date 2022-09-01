@@ -1,2 +1,2 @@
 # barbearia alison
- primeiro repositorio versionado
+ Primeiro repositorio versionado.
