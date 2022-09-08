@@ -1,162 +1,179 @@
-    header {
-        background: rgb(255, 2, 2);
-        padding: 20px 0;
+body{
+    font-family: 'Montserrat', sem serifa;
+}
 
-    }
+header {
+    background:#ccc;
+    padding: 20px 0;
+    height: 430px;
 
-    .caixa {
-        position: relative;
-        width: 940px;
-        margin: 0 auto;
-        height: 430px;
-    }
-
-    nav {
-        position: absolute;
-        top: 140px;
-        right: 0;
-
-        /*posiciona o inicio de um elemento em um ponto determinado */
-        /*position:relative ;  posiciona o elemento em determinado ponto porem com o inicio ainda no mesmo local*/
-        /*position: static; posicao estatica de um determinado elemento*/
-    }
-
-    nav li {
-        display: inline;
-        margin: 0 0 0 15px;
+}
 
 
-    }
+.caixa {
+    position: relative;
+    top: 1px;
+    width: 1200px;
+    margin-right: 10px 10px;
+    height: 470px;
+   
+}
 
-    nav a {
-        text-transform: uppercase;
-        /*texto todo em letra maiuscula*/
-        color: #000;
-        font-weight: bold;
-        /*fonte em negrito*/
-        font-size: 22px;
-        text-decoration: none;
-        /* remove decorações no texto*/
-    }
+nav {
+    display: inline;
+    position: absolute;
+    top: 139px;
+    right: 80px;
 
-    nav a:hover {
-        /*hover é um comando para determinar um comportamento de quando o mouse ESTA POR CIMA de determinado elemento/
-        /*no caso o elemento (a) do (nav)*/
+    /*posiciona o inicio de um elemento em um ponto determinado */
+    /*position:relative ;  posiciona o elemento em determinado ponto porem com o inicio ainda no mesmo local*/
+    /*position: static; posicao estatica de um determinado elemento*/
+}
 
-        margin: 3px;
-        text-decoration: underline rgb(7, 7, 7);
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    position: relative;
+    
+}
+
+    
 
 
-    }
+li  .link-contato:hover, a{
+    color:rgb(255, 4, 4) ;
 
-    li a:hover {
-        color: rgb(248, 247, 248);
-    }
+}
 
-    li a:active {
-        /* active é um comando de personalização para quando CLICAR o mouse  o elemento altera */
-        /*para as configurações definidas no active*/
-        text-decoration: underline white;
-        color: aqua;
-
-    }
-
-    li a .logo {
-        max-width: 450px;
-        max-height: 450px;
-        position: relative;
-        top: 40px;
-    }
-
-    /*------------------------------------------------------------------fim do cabeçalho----------------------------------------------------------------*/
-
-    .produtos {
-        width: 940px;
-        margin: 0 auto;
-        padding: 50px 0;
-    }
+li .link-produto:active, a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    
+}
 
 
 
-    .produtos li {
-        display: inline-block;
-        text-align: center;
-        width: 30%;
-        vertical-align: top;
-        margin: 0 1.5%;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        /*defini a largura como absoluta e coloca os (px) e (%) dentro desse espaço da largura absoluta*/
-        border: 2px solid #000;
-        /* é possivel criar bordar como se fosse um comando (inline) definindo todas as */
-        /*caracteristicas de um elemento em uma unica linha de comando*/
-        border-radius: 10px;
-        box-shadow: 2px 3px;
-    }
+nav a {
+    position: relative;
+    top: 50px;
+    right: 45px;
+    text-transform: uppercase;
+    /*texto todo em letra maiuscula*/
+    color: #000;
+    font-weight: bold;
+    /*fonte em negrito*/
+    font-size: 22px;
+    text-decoration: none;
+    /* remove decorações no texto*/
+}
 
-    .produtos li:hover {
-        color: rgb(255, 0, 0);
-        border: 2px solid rgb(252, 92, 0);
+nav a:hover {
+    /*hover é um comando para determinar um comportamento de quando o mouse ESTA POR CIMA de determinado elemento/
+    /*no caso o elemento (a) do (nav)*/
 
-
-
-    }
+    margin: 3px;
+    text-decoration: underline rgb(7, 7, 7);
 
 
-
-    .produtos li:active {
-        border-color: aqua;
-        color: rgb(110, 104, 104);
-    }
-
-    .produtos li:hover h2 {
-        /*comando utilizado para alterar determinado elemento mesmo ele ja tendo uma configuração ja predetrminada no caso o h2*/
-        font-size: 32px;
-    }
-
-    .produtos h2 {
-        font-weight: bold;
-        font-size: 30px;
-    }
-
-    .produtos img {
-        background: #ccc;
-
-    }
+}
 
 
 
-    .produto-descricao {
-        font-size: 18px;
+li a .logo {
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+    bottom: 40px;
+}
 
-    }
+ul .produtos-ul {
 
-    .produto-preco {
-        font-weight: bold;
-        font-size: 22px;
-        margin: 10px 0 0;
-
-    }
-
-    /*---------------------------------------------------------fim do menu---------------------------------------------------------------------*/
-
-    footer {
-        text-align: center;
-        background: black;
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-    }
-
-    img .img-final {
-        position: absolute;
-        margin-left: 100px;
-    }
-
-    .copyright {
-        padding-bottom: 30px;
-        color: rgb(250, 248, 248);
-        font-size: 13px;
+    display: inline-block;
+    vertical-align: center;
+    width: 620px;
+    height: 72px;
 
 
-    }
+
+
+}
+
+
+
+/*------------------------------------------------------------------fim do cabeçalho----------------------------------------------------------------*/
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*defini a largura como absoluta e coloca os (px) e (%) dentro desse espaço da largura absoluta*/
+    border: 2px solid rgb(243, 3, 3);
+    /* é possivel criar bordar como se fosse um comando (inline) definindo todas as */
+    /*caracteristicas de um elemento em uma unica linha de comando*/
+    border-radius: 10px;
+    box-shadow: 1px 2px;
+}
+
+
+
+.produtos li:hover h2 {
+    /*comando utilizado para alterar determinado elemento mesmo ele ja tendo uma configuração ja predetrminada no caso o h2*/
+    font-size: 32px;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+.produto-descricao {
+    font-size: 18px;
+
+}
+
+.produto-preco {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 0;
+
+}
+
+/*---------------------------------------------------------fim do menu---------------------------------------------------------------------*/
+
+/*--------------------------começo cabeçalho-----------------------------------*/
+footer {
+    text-align: center;
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 1px;
+
+}
+
+img .img-final {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.copyright {
+    padding-bottom: 10px;
+    color: rgb(250, 248, 248);
+    font-size: 13px;
+
+
+}

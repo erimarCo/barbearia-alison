@@ -1,20 +1,28 @@
+body{
+    font-family: 'Montserrat', sem serifa;
+}
+
 header {
-    background: rgb(255, 2, 2);
+    background: #ccc;
     padding: 20px 0;
 
 }
 
+
+
 .caixa {
     position: relative;
-    width: 940px;
-    margin: 0 auto;
+    width: 1200px;
+    margin-right: 10px 10px;
     height: 430px;
+    padding: 0 0 0 0;
 }
 
 nav {
+    display: inline;
     position: absolute;
     top: 140px;
-    right: 0;
+    right: 90px;
 
     /*posiciona o inicio de um elemento em um ponto determinado */
     /*position:relative ;  posiciona o elemento em determinado ponto porem com o inicio ainda no mesmo local*/
@@ -68,32 +76,11 @@ li a .logo {
     top: 40px;
 }
 
+
+
 /*----------------------------------------------fim do cabeçalho------------------------------------------*/
 
-/*----------------------------------------------inicio do rodapé-------------------------------------------*/
 
-footer {
-    text-align: center;
-    background: black;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-}
-
-img .img-final {
-    position: absolute;
-    margin-left: 100px;
-}
-
-.copyright {
-    padding-bottom: 30px;
-    color: rgb(250, 248, 248);
-    font-size: 13px;
-
-
-}
-
-/*-------------------------------------------------fim do rodapé---------------------------------------------*/
 
 /*-------------------------------------------------inicio da pagina contato-----------------------------------*/
 main {
@@ -118,6 +105,7 @@ form label, form legend {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+   
 }
 
 .checkbox {
@@ -160,3 +148,44 @@ td, th {
     border: 1px solid #000;
     padding: 8px 15px;
 }
+
+h2{
+    font-size: 17px;
+}
+
+/*----------------------------------------------inicio do rodapé-------------------------------------------*/
+
+footer {
+    text-align: center;
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 1px;
+
+}
+
+img .img-final {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.copyright {
+    padding-bottom: 10px;
+    color: rgb(250, 248, 248);
+    font-size: 13px;
+
+
+}
+
+ul {
+    display: inline-block;
+    vertical-align: center;
+    width: 500px;
+    margin-left: 15%;
+    padding-left: 120px;
+    padding-top: 50px;
+
+
+
+}
+
+/*-------------------------------------------------fim do rodapé---------------------------------------------*/
